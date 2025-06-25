@@ -17,7 +17,7 @@ const TaskItem = ({ task }: { task: Task }) => {
 
   return (
     <>
-      <tr className="border-b border-gray-600 text-white hover:bg-gray-700">
+      <tr className="border-b border-gray-600 text-black hover:bg-gray-700">
         <td className="p-2">{task.id}</td>
         <td className="p-2">{task.title || 'N/A'}</td>
         <td className="p-2">{task.name || 'N/A'}</td>
